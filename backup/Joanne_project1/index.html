@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Joanne Ho | Front-end Web Developer/Designer</title>
+	<link rel="stylesheet" href="style.css">
+
+	<link href="http://fonts.googleapis.com/css?family=Alegreya:300|Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://rawgithub.com/kswedberg/jquery-smooth-scroll/master/jquery.smooth-scroll.js"></script>
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+
+
+	<div class="wrapper clearfix">
+
+	<div class="sidebar">
+		<div class="navbox">
+			<ul class="nav">
+				<li><a href="#nav-home">Home</a></li>
+				<li><a href="#nav-about">About</a></li>
+				<li><a href="#nav-portfolio">Portfolio</a></li>
+				<li><a href="#nav-footer">Connect</a></li>
+			</ul>
+		</div>
+	</div> <!-- end of sidebar -->
+
+	<div class="right-wrapper">
+		
+		<section class="header clearfix" id="nav-home">
+
+			<div class="welcome">
+				<p class="hello">Hello</p>
+				<p class="name">
+					 ...my name is... 
+				</p>			
+			</div>
+			<h1>Joanne</h1>
+			
+		</section> <!-- end of header -->
+
+		<section class="about clearfix" id="nav-about">
+			<h2>About</h2>
+			
+			<div class="profile">
+
+				<p>Toronto-based print designer turned web-developer.</p>
+				<p>Current student at Hackeryou's Front-end Web Development Immersive. </p>
+				<p></p>
+
+				<a href="https://medium.com/@k3jo" class="blog">Follow my journey on Medium</a>
+				
+			</div>
+		</section> <!-- end of about -->
+			
+		<section class="portfolio clearfix" id="nav-portfolio">
+			
+			<h2>Featured Work</h2>
+			<div class="outerbox">
+				<div class="portfoliobox">
+					<img src="i/ComfortWomen-brochure.jpg" alt="">
+					<h3>Japanese Textbook Controversy</h3>
+					<p class="skills">Print/Layout/Education</p>
+				</div>
+
+				<div class="portfoliobox">
+					<img src="i/DDIY-website.jpg" alt="">
+					<h3>DDIY Website Redesign</h3>
+
+					<p class="skills">HTML/CSS/Responsive</p>
+				</div>
+
+				<div class="portfoliobox">
+					<img src="i/SC_BC.jpg" alt="">
+					<h3>Sue Chen Personal Injury Lawyers</h3>
+					<p class="skills">Branding/Print/Stationary</p>
+				</div>
+
+				<div class="portfoliobox">
+					<img src="i/pw.jpg" alt="">
+					<h3>CNIB</h3>
+					<p class="skills">Print/Layout/Brochure</p>
+				</div>
+				</div> <!-- end of outerbox -->
+			
+		</section> <!-- end of portfolio -->
+
+		<section class="footer clearfix" id="nav-footer">
+
+			<h2>Get in Touch</h2>
+
+			<div class="contactbox">
+
+				<div class="contact-form clearfix">
+
+					<form action="http://formspree.io/joanne.kwh@gmail.com"
+					      method="POST">
+
+					     <div class="field">
+					      	<input type="text" name="name" placeholder="Name" class="myinput">
+					      	<input type="email" name="_replyto" placeholder="Email" class="myinput">
+					     </div>
+
+					     <div class="field">
+
+					     	<textarea name="msg" rows="5" cols="30" name="message" placeholder="Message" class="msg"></textarea>
+					    	<input type="submit" value="Send Message" class="send">
+					      </div>
+		
+					</form>
+				</div>
+
+
+				<div class="contact">
+
+					<a href="http://ca.linkedin.com/in/joannekwho" target="_blank" title="Connect on LinkedIn">
+						<i class="fa fa-linkedin"></a></i>							
+					
+					
+
+					<a href="http://medium.com/k3jo" target="_blank" title="Read my Blog">
+						<i class="fa fa-medium"></a></i>
+					
+						
+
+					<a href="mailto:joanne.kwh@gmail.com" target="_blank" title="Send an Email">
+						<i class="fa fa-envelope-o"></a></i>
+					
+					
+				</div>
+
+			</div> <!-- end of contactbox -->
+			<!-- <p class="crafted">handcrafted with SublimeText</p>  -->
+		</section><!--  end of footer-->
+
+	
+ </div> <!-- end of right-wrapper -->
+
+	</div> <!-- end of wrapper clearfix -->
+
+	<!-- Smooth scroll goes here!! -->
+	<script>
+	  $(function() {
+	  	$('.nav a').smoothScroll({
+	  		speed : 1000,
+	  		offset : -70
+	  	});
+	  });
+	</script>
+	
+</body>
+</html>
